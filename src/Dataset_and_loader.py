@@ -1,5 +1,6 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
+from src.GPT_Tokenizer import GPT_Tokenizer
 
 class Implement_Dataset(Dataset):
     def __init__(self, text, max_length, stride):
@@ -49,6 +50,7 @@ class Implement_Dataset(Dataset):
 #       return torch.tensor(self.input_id[idx]), torch.tensor(self.target_id[idx])
 
 """This code implements a custom dataset class for our LLM training. Next, we’ll create a DataLoader to fetch the data in batches and iterate over it during training."""
+text_data = "hello"
 
 def Implement_DataLoader(txt,batch_size=4, max_length=256, stride=128, shuffle=True, drop_last=True,num_workers=0):
       dataset = Implement_Dataset(txt, max_length, stride)
