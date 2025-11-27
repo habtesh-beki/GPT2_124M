@@ -16,7 +16,7 @@ class GPT_Tokenizer:
 Provides encoding and decoding functionality compatible with OpenAI's GPT models.
 """
 
-with open("iLoveMerge.txt", "r", encoding="utf-8") as file:
+with open("requirement.txt", "r", encoding="utf-8") as file:
    raw_data = file.read()
 
 """Read the text file containing training data for tokenization and model training"""
