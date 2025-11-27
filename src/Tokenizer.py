@@ -21,6 +21,7 @@ with open("requirement.txt", "r", encoding="utf-8") as file:
 
 """Read the text file containing training data for tokenization and model training"""
 
+
 text_data = raw_data[:100]
 print(text_data)
 
