@@ -109,15 +109,6 @@ If your local machine doesn’t have a GPU, simply upload the `.ipynb` notebook 
 
 Colab GPUs are more than enough to train a small GPT-2 version.
 
-### **Option 2: Run Locally**
-
-```bash
-git clone https://github.com/your-username/GPT2-from-scratch.git
-cd GPT2-from-scratch
-```
-
-Then run the notebook or any Python script inside `/src`.
-
 ---
 
 # 🧠 **Training the Model**
