@@ -162,4 +162,4 @@ After ~10 epochs on a small dataset:
 
 ---
 
-# ⭐ **If you found this project useful, consider giving it a star!**
+### ⭐ **If you found this project useful, consider giving it a star!**
